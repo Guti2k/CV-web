@@ -1,4 +1,17 @@
 .wapper{
-    width: 1300px;
+    width: 100%;
+}
+
+.fondo1{
+    background-color: black;
+}   
+
+.contenedor1{
+    width: 1272px;
     margin: 0 auto;
+    color: white;
+}
+
+.fa-gear{
+    color: white;
 }
