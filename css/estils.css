@@ -7,11 +7,36 @@
 }   
 
 .contenedor1{
-    width: 1272px;
+    width: 1535px;
     margin: 0 auto;
     color: white;
 }
 
+.header1 p{
+    font-size: 30px;
+}
+
 .fa-gear{
+    color: white;
+    font-size: 30px;
+}
+
+.header1{
+    display: flex;
+    justify-content: space-between;
+    padding: 13px;
+}
+
+.header1 ul{
+    display: flex;
+}
+
+.header1 li{
+    display: inline-block;
+}
+
+.header1 a{
+    margin-right: 10px;
+    text-decoration: none;
     color: white;
 }
