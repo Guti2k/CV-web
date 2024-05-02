@@ -1,42 +1,60 @@
-.wapper{
+#headerwapper{
+    max-width:1536px;
+    margin: 0 auto;
+}
+
+header{
+    background-color: #F9F9FB;
     width: 100%;
 }
 
-.fondo1{
-    background-color: black;
-}   
-
-.contenedor1{
-    width: 1535px;
+#headerwapper{
+    width:1536px;
     margin: 0 auto;
-    color: white;
 }
 
-.header1 p{
-    font-size: 30px;
+#section1{
+    width: 1536px;
+    margin: 0 auto;
 }
 
-.fa-gear{
-    color: white;
-    font-size: 30px;
+#imagenesbanderas{
+    display: flex
 }
 
-.header1{
+#imagenesbanderas img{
+    width: 44px;
+    margin-right: 10px;
+    height: 23px;
+}
+
+#div2menu{
+    display: flex;
+}
+
+#div2menu li{
+    padding-right: 10px;
+}
+
+#div2menu a{
+    text-decoration: none;
+    color: rgb(120, 120, 120);
+}
+
+.bi-globe-americas{
+    padding-right: 10px;
+    font-size: 20px;
+}
+
+.section1fondo{
+    background-color: #C2CBCD;
+}
+
+.section2fondo{
+    background-color: #CFB594;
+}
+
+.classnav{
     display: flex;
     justify-content: space-between;
-    padding: 13px;
-}
-
-.header1 ul{
-    display: flex;
-}
-
-.header1 li{
-    display: inline-block;
-}
-
-.header1 a{
-    margin-right: 10px;
-    text-decoration: none;
-    color: white;
 }
