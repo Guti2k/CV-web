@@ -33,6 +33,15 @@ header{
     padding-bottom: 15px;
 }
 
+#section4{
+    width: 1536px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 14px;
+}
+
+
+
 #section1 img{
     padding: 20px;
 }
@@ -85,6 +94,18 @@ header{
 
 .section4fondo{
     background-color: #9D9E91;
+}
+
+.footerfondo{
+    background-color: black;
+}
+
+.footerfondo p{
+    width: 1536px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+    color: white;
 }
 
 .classnav{
