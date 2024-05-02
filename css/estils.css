@@ -16,6 +16,30 @@ header{
 #section1{
     width: 1536px;
     margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#section2{
+    width: 1536px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#section3{
+    width: 1536px;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+#section1 img{
+    padding: 20px;
+}
+
+#div1section{
+    text-align: center;
+     padding: 133px;
 }
 
 #imagenesbanderas{
@@ -39,6 +63,7 @@ header{
 #div2menu a{
     text-decoration: none;
     color: rgb(120, 120, 120);
+    font-size: 23px;
 }
 
 .bi-globe-americas{
@@ -54,7 +79,22 @@ header{
     background-color: #CFB594;
 }
 
+.section3fondo{
+    background-color: #FCDCAB;
+}
+
+.section4fondo{
+    background-color: #9D9E91;
+}
+
 .classnav{
     display: flex;
     justify-content: space-between;
+}
+
+.ubicacion{
+    border-radius: 10px;
+    width: 835px;
+    height: 450px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
 }
