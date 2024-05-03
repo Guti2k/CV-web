@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Briem+Hand:wght@100..900&display=swap');
+
 #headerwapper{
     max-width:1536px;
     margin: 0 auto;
@@ -18,13 +20,17 @@ header{
     margin: 0 auto;
     display: flex;
     justify-content: space-evenly;
-    text-shadow: 0px 1px 9px #333;
+    flex-direction: column;
+    padding-bottom: 16px;
 }
 
 #section2{
     width: 1536px;
     margin: 0 auto;
     text-align: center;
+    /* padding: 10px; */
+    padding-top: 15px;
+    padding-bottom: 17px;
 }
 
 #section3{
@@ -42,12 +48,14 @@ header{
 }
 
 #section1 h3{
-    padding: 6px;
+    padding: 20px;
+    text-align: center;
+    font-family: "Briem Hand", cursive;
 }
 
-#section2 p{
-    font-size: 20px;
-    padding-top: 10px;
+#section2 h3{
+    font-family: "Briem Hand", cursive;
+    padding-bottom: 14px;
 }
 
 #div1section{
@@ -84,18 +92,6 @@ header{
     font-size: 20px;
 }
 
-.bi-geo-alt-fill{
-    padding-right: 10px;
-}
-
-.bi-telephone-outbound-fill{
-    padding-right: 10px;
-}
-
-.bi-browser-edge{
-    padding-right: 10px;
-}
-
 .section1fondo{
     background-color: #C2CBCD;
 }
@@ -114,6 +110,11 @@ header{
 
 .footerfondo{
     background-color: black;
+}
+
+.div1section1{
+    display: flex;
+    justify-content: space-around;
 }
 
 .footerfondo p{
@@ -136,30 +137,17 @@ header{
     box-shadow: 0px 0px 20px 12px rgb(255 255 255 / 50%);
 }
 
-.section2div1{
-    display: flex;
-    justify-content: space-around;
-    padding: 20px;
-}
-
-.section2div2{
-    margin-top: 80px;
-}
-
-.Telofono{
-    text-shadow: 0px 1px 9px #333;
-}
-
-.navmenusection2{
+.navmenusection1{
     text-align: left;
 }
 
-.navmenusection2 a{
+.navmenusection1 a{
     text-decoration: none;
-    color: #FCDCAB;
+    color: #000000;
     text-shadow: 0px 1px 9px #333;
 }
 
-.navmenusection2 li{
+.navmenusection1 li{
     font-weight: bold;
+    text-shadow: 0px 1px 9px #333;
 }
