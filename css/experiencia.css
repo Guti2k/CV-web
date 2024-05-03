@@ -79,6 +79,18 @@ header{
     font-size: 23px;
 }
 
+#div3menu{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
+    margin: 0;
+}
+
+#div3menu a{
+    text-decoration: none;
+    color: white;
+}
+
 .bi-globe-americas{
     padding-right: 10px;
     font-size: 20px;
