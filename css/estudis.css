@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Briem+Hand:wght@100..900&display=swap');
 
 #headerwapper{
-    max-width:1536px;
+    max-width:1519px;
     margin: 0 auto;
 }
 
@@ -11,12 +11,12 @@ header{
 }
 
 #headerwapper{
-    width:1530px;
+    width:1519px;
     margin: 0 auto;
 }
 
 #section1{
-    width: 1536px;
+    width: 1519px;
     margin: 0 auto;
     display: flex;
     justify-content: space-evenly;
@@ -25,7 +25,7 @@ header{
 }
 
 #section2{
-    width: 1536px;
+    width: 1519px;
     margin: 0 auto;
     text-align: center;
     
@@ -34,7 +34,7 @@ header{
 }
 
 #section3{
-    width: 1536px;
+    width: 1519px;
     margin: 0 auto;
     text-align: center;
     padding-top: 15px;
@@ -42,7 +42,7 @@ header{
 }
 
 #section4{
-    width: 1530px;
+    width: 1519px;
     margin: 0 auto;
     text-align: center;
     padding: 14px;
@@ -160,6 +160,20 @@ header{
     box-shadow: 0px 0px 20px 12px rgb(255 255 255 / 50%);
 }
 
+.ubicacion2{
+    border-radius: 10px;
+    width: 835px;
+    height: 450px;
+    box-shadow: 0px 0px 20px 12px rgb(255 255 255 / 50%);
+}
+
+.ubicacion3{
+    border-radius: 10px;
+    width: 835px;
+    height: 450px;
+    box-shadow: 0px 0px 20px 12px rgb(255 255 255 / 50%);
+}
+
 .navmenusection1{
     text-align: left;
 }
@@ -186,3 +200,228 @@ header{
     text-decoration: none;
     text-shadow: 0px 1px 9px #333;
 }
+
+.div2header{
+    display: block;
+}
+
+
+@media (max-width: 500px) {
+    #headerwapper{
+        max-width:500px;
+        margin: 0 auto;
+    }
+    
+    header{
+        background-color: #F9F9FB;
+        width: 100%;
+    }
+    
+    #headerwapper{
+        width:500px;
+        margin: 0 auto;
+    }
+    
+    #section1{
+        width: 500px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        padding-bottom: 16px;
+    }
+    
+    #section2{
+        width: 500px;
+        margin: 0 auto;
+        text-align: center;
+        
+        padding-top: 15px;
+        padding-bottom: 17px;
+    }
+    
+    #section3{
+        width: 500px;
+        margin: 0 auto;
+        text-align: center;
+        padding-top: 15px;
+        padding-bottom: 17px;
+    }
+    
+    #section4{
+        width: 500px;
+        margin: 0 auto;
+        text-align: center;
+        padding: 14px;
+    }
+    
+    #section1 h3{
+        padding: 0px;
+        text-align: center;
+        font-family: "Briem Hand", cursive;
+        width: 490px;
+    }
+    
+    #section2 h3{
+        font-family: "Briem Hand", cursive;
+        padding-bottom: 14px;
+    }
+    
+    #section3 h3{
+        font-family: "Briem Hand", cursive;
+        padding-bottom: 14px;
+    }
+    
+    #section4 h3{
+        font-family: "Briem Hand", cursive;
+        padding-bottom: 14px;
+    }
+    
+    #div1section{
+        text-align: center;
+         padding: 133px;
+    }
+    
+    #imagenesbanderas{
+        display: flex
+    }
+    
+    #imagenesbanderas img{
+        width: 44px;
+        margin-right: 10px;
+        height: 23px;
+    }
+    
+    #div2menu{
+        display: flex;
+    }
+    
+    #div2menu li{
+        padding-right: 10px;
+    }
+
+    #div2header{
+        display: block;
+    }
+    
+    #div2menu a{
+        text-decoration: none;
+        color: rgb(120, 120, 120);
+        font-size: 23px;
+    }
+    
+    #div3menu{
+        display: flex;
+        justify-content: space-evenly;
+        padding: 15px;
+        margin: 0;
+    }
+    
+    #div3menu a{
+        text-decoration: none;
+        color: white;
+    }
+    
+    .bi-globe-americas{
+        padding-right: 10px;
+        font-size: 20px;
+    }
+    
+    .section1fondo{
+        background-color: #C2CBCD;
+    }
+    
+    .section2fondo{
+        background-color: rgb(207, 181, 148);
+    }
+    
+    .section3fondo{
+        background-color: #FCDCAB;
+    }
+    
+    .section4fondo{
+        background-color: #9D9E91;
+    }
+    
+    .footerfondo{
+        background-color: black;
+    }
+    
+    .div1section1{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    
+    .footerfondo p{
+        width: 1536px;
+        margin: 0 auto;
+        text-align: center;
+        padding: 10px;
+        color: white;
+    }
+    
+    .classnav{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .ubicacion{
+        border-radius: 10px;
+        width: 481px;
+        height: 417px;
+        box-shadow: 0px 0px 20px 12px rgb(255 255 255 / 50%);
+        margin-left: 9px;
+    }
+
+    .ubicacion2{
+        border-radius: 10px;
+        width: 465px;
+        height: 417px;
+        box-shadow: 0px 0px 20px 12px rgb(255 255 255 / 50%);
+        margin-left: 14px;
+        margin-top: 13px;
+        margin-bottom: 13px;
+    }
+
+    .ubicacion3{
+        border-radius: 10px;
+        width: 472px;
+        height: 393px;
+        box-shadow: 0px 0px 20px 12px rgb(255 255 255 / 50%);
+        margin-bottom: 11px;
+    }
+    
+    .navmenusection1{
+        text-align: left;
+    }
+    
+    .navmenusection1 a{
+        text-decoration: none;
+        color: #000000;
+        text-shadow: 0px 1px 9px #333;
+    }
+    
+    .navmenusection1 li{
+        font-weight: bold;
+        text-shadow: 0px 1px 9px #333;
+    }
+    
+    .certificardo{
+        width: 450px;
+        height: 199px;
+        box-shadow: 0px 0px 20px 12px rgba(0, 0, 0, 0.5);
+        margin-top: 10px;
+    }
+    
+    .certificardo2 a{
+        text-decoration: none;
+        text-shadow: 0px 1px 9px #333;
+    }
+
+    .div2header{
+        display: none;
+    }
+    
+  }
+  

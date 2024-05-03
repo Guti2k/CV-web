@@ -1,5 +1,5 @@
 #headerwapper{
-    max-width:1536px;
+    max-width:1519px;
     margin: 0 auto;
 }
 
@@ -9,12 +9,12 @@ header{
 }
 
 #headerwapper{
-    width:1536px;
+    width:1519px;
     margin: 0 auto;
 }
 
 #section1{
-    width: 1536px;
+    width: 1519px;
     margin: 0 auto;
     display: flex;
     justify-content: space-evenly;
@@ -22,20 +22,20 @@ header{
 }
 
 #section2{
-    width: 1536px;
+    width: 1519px;
     margin: 0 auto;
     text-align: center;
 }
 
 #section3{
-    width: 1536px;
+    width: 1519px;
     margin: 0 auto;
     text-align: center;
     padding-bottom: 15px;
 }
 
 #section4{
-    width: 1536px;
+    width: 1519px;
     margin: 0 auto;
     text-align: center;
     padding: 14px;
@@ -56,7 +56,7 @@ header{
 }
 
 #imagenesbanderas{
-    display: flex
+    display: flex;
 }
 
 #imagenesbanderas img{
@@ -90,6 +90,11 @@ header{
     text-decoration: none;
     color: white;
 }
+
+.div2header{
+    display: block;
+}
+
 
 .bi-globe-americas{
     padding-right: 10px;
@@ -180,3 +185,198 @@ header{
 .navmenusection2 li{
     font-weight: bold;
 }
+
+@media (max-width: 500px) {
+    #headerwapper{
+        max-width:500px;
+        margin: 0 auto;
+    }
+    
+    header{
+        background-color: #F9F9FB;
+        width: 100%;
+    }
+    
+    #headerwapper{
+        width:500px;
+        margin: 0 auto;
+    }
+    
+    #section1{
+        width: 500px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-evenly;
+        text-shadow: 0px 1px 9px #333;
+    }
+    
+    #section2{
+        width: 500px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    #section3{
+        width: 500px;
+        margin: 0 auto;
+        text-align: center;
+        padding-bottom: 15px;
+    }
+
+    #section3 h3{
+        padding-top: 10px;
+    }
+    
+    #section4{
+        width: 500px;
+        margin: 0 auto;
+        text-align: center;
+        padding: 14px;
+    }
+    
+    #section1 h3{
+        padding: 6px;
+    }
+    
+    #section2 p{
+        font-size: 20px;
+        padding-top: 10px;
+    }
+    
+    #div1section{
+        text-align: center;
+         padding: 133px;
+    }
+    
+    #imagenesbanderas{
+        display: flex
+    }
+    
+    #imagenesbanderas img{
+        width: 44px;
+        margin-right: 10px;
+        height: 23px;
+    }
+    
+    #div2menu{
+        display: flex;
+    }
+    
+    #div2menu li{
+        padding-right: 10px;
+    }
+    
+    #div2menu a{
+        text-decoration: none;
+        color: rgb(120, 120, 120);
+        font-size: 23px;
+    }
+    
+    #div3menu{
+        display: flex;
+        justify-content: space-evenly;
+        padding: 15px;
+        margin: 0;
+    }
+    
+    #div3menu a{
+        text-decoration: none;
+        color: white;
+    }
+
+    .div2header{
+        display: none;
+    }
+    
+    .bi-globe-americas{
+        padding-right: 10px;
+        font-size: 20px;
+    }
+    
+    .bi-geo-alt-fill{
+        padding-right: 10px;
+    }
+    
+    .bi-telephone-outbound-fill{
+        padding-right: 10px;
+    }
+    
+    .bi-browser-edge{
+        padding-right: 10px;
+    }
+    
+    .section1fondo{
+        background-color: #C2CBCD;
+    }
+    
+    .section2fondo{
+        background-color: #CFB594;
+    }
+    
+    .section3fondo{
+        background-color: #FCDCAB;
+    }
+    
+    .section4fondo{
+        background-color: #9D9E91;
+    }
+    
+    .footerfondo{
+        background-color: black;
+    }
+    
+    .footerfondo p{
+        width: 1536px;
+        margin: 0 auto;
+        text-align: center;
+        padding: 10px;
+        color: white;
+    }
+    
+    .classnav{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .ubicacion{
+        border-radius: 10px;
+        width: 460px;
+        height: 400px;
+        box-shadow: 0px 0px 20px 12px rgb(255 255 255 / 50%);
+    }
+    
+    .section2div1{
+        display: flex;
+        justify-content: space-around;
+        padding: 20px;
+        flex-direction: column;
+    }
+    
+    .section2div2{
+        margin-top: 0px;
+        width: 450px;
+    }
+    
+    .section2div2 p{
+        text-align: left;
+    }
+    
+    .Telofono{
+        text-shadow: 0px 1px 9px #333;
+    }
+    
+    .navmenusection2{
+        text-align: left;
+    }
+    
+    .navmenusection2 a{
+        text-decoration: none;
+        color: #0c0c0c;
+        text-shadow: 0px 1px 9px #333;
+    }
+    
+    .navmenusection2 li{
+        font-weight: bold;
+    }
+  }
+  
