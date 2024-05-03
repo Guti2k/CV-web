@@ -144,6 +144,11 @@ header{
 
 .section2div2{
     margin-top: 80px;
+    width: 533px;
+}
+
+.section2div2 p{
+    text-align: left;
 }
 
 .Telofono{
@@ -156,7 +161,7 @@ header{
 
 .navmenusection2 a{
     text-decoration: none;
-    color: #FCDCAB;
+    color: #0c0c0c;
     text-shadow: 0px 1px 9px #333;
 }
 
